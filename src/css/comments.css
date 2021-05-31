@@ -1,0 +1,183 @@
+.comment-section-body {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  height: calc(100%-1rem);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+  /* box-shadow: 1rem 1px 30px rgba(1, 1, 1, 0.1); */
+  background: rgb(249, 249, 249);
+  margin-right: 1rem;
+}
+
+.comment-text-area {
+  /* margin-top: auto; */
+  padding: 0rem 1rem 0rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  /* box-shadow: 0px 0px 40px white; */
+}
+
+.comment-text-area .input {
+  /* resize: none;
+  width: 100%;
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  background: white;
+  border-top: 0; */
+  margin: 0 0 1rem 0;
+  /* position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; */
+}
+
+.MuiInputLabel-formControl {
+  left: 14px !important;
+}
+
+textarea:focus,
+.input:focus {
+  outline: none !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+.questions-container {
+  overflow: scroll;
+  margin-left: 1.5rem;
+  flex-grow: 1;
+  position: relative;
+}
+
+.spacer {
+  height: 2rem;
+  width: 100%;
+}
+
+.user-profile {
+  min-width: 40px;
+  min-height: 40px;
+  line-height: 10px;
+  height: 40px;
+  max-width: 40px;
+  max-height: 40px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.pill {
+  border-radius: 1rem !important;
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+}
+
+.author-profile {
+  min-width: 20px;
+  min-height: 20px;
+  line-height: 10px;
+  height: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  text-align: center;
+  background-color: #fc766aff;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 1.3rem !important;
+}
+
+.comment-spacer {
+  min-height: 132px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.details {
+  height: 90px;
+  position: relative;
+}
+
+.border-bot {
+  border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+.write {
+  position: absolute !important;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.view-more {
+  position: absolute;
+  bottom: -14px;
+  left: 40%;
+  border: none;
+  background-color: rgb(249, 249, 249);
+}
+
+.question-input {
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  background: white;
+  border-bottom: 0;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.reply-input {
+  resize: none;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(50, 50, 50, 0.1);
+  background: white;
+}
+
+.send-icon {
+  color: rgba(1, 1, 1, 0.1);
+}
+
+.un-btn {
+  text-align: start;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-left: -1rem;
+}
+
+.f-1 {
+  font-size: 1rem !important;
+}
+
+.icon-but {
+  position: absolute !important;
+  bottom: 0rem;
+  right: 0rem;
+  z-index: 1000;
+}
+
+.MuiFilledInput-multiline {
+  padding: 27px 12px 40px 26px !important;
+  background-color: rgba(0, 0, 0, 0.065) !important;
+}
+
+.small-font {
+  font-size: 0.9rem !important;
+}
+
+.top-shadow {
+  box-shadow: 0px -10px 50px rgb(249, 249, 249);
+}

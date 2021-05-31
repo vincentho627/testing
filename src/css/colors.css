@@ -1,0 +1,48 @@
+.red-bg {
+  background-color: rgb(235, 33, 103) !important;
+}
+
+.blue-bg {
+  background-color: rgb(43, 116, 223) !important;
+}
+
+.blue-workspace-bg {
+  background-color: rgb(23, 96, 203) !important;
+}
+
+.grey-text {
+  color: rgba(1, 1, 1, 0.6) !important;
+}
+
+.blue-text {
+  color: rgb(43, 116, 223) !important;
+}
+
+.green-text {
+  color: green !important;
+}
+
+.blue-icon {
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+  color: #007bff !important;
+}
+
+.grey-border {
+  border: 1px solid rgba(1, 1, 1, 0.2);
+}
+
+.blue-border {
+  border: 1px solid rgb(43, 116, 223) !important;
+}
+
+.less-white-bg {
+  background-color: rgb(249, 249, 249);
+}
+
+.light-grey-text {
+  color: rgba(1, 1, 1, 0.5) !important;
+}

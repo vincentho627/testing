@@ -1,0 +1,35 @@
+.border {
+    border: 1px solid rgba(1, 1, 1, 0.5);
+}
+
+.form-padding {
+    padding: 4rem 4rem 3rem 4rem;
+}
+
+.form-radius {
+    border-radius: 15px;
+}
+
+.center-horizontal {
+    margin: auto;
+}
+
+.light-font {
+    color: rgba(1, 1, 1, 0.5);
+}
+
+.transparent {
+    opacity: 0;
+}
+
+.item-fade-in {
+    transition: opacity 0.3s!important;
+    opacity: 1;
+}
+
+.item-fade-out {
+    transition: opacity 0.3s!important;
+    opacity: 0;
+}
+  
+  

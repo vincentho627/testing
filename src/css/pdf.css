@@ -1,0 +1,53 @@
+.pdf-app-body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: 2rem 1rem 2rem 2rem;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: default !important;
+}
+
+.fullscreen {
+  width: 100vw !important;
+  height: 100% !important;
+}
+
+.reader {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+}
+
+.background-reader {
+  display: flex;
+  height: 100%;
+  width: 100vw;
+  background-color: rgb(249, 249, 249);
+  max-width: 100%;
+}
+
+.spacer-left {
+  flex-shrink: 0;
+  width: 50%;
+  height: calc(100%-1rem);
+  box-shadow: -0.8rem 0px 40px rgba(100, 100, 100, 0.125);
+  margin: 2rem 1rem 2rem 2rem;
+}
+
+.resize-bar {
+  position: absolute;
+  right: -7px;
+  top: 0;
+  bottom: 0;
+  width: 7px;
+  height: 100%;
+  background-color: transparent;
+}
+
+.resize-bar:hover {
+  cursor: col-resize;
+}

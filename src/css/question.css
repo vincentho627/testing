@@ -1,0 +1,66 @@
+.like-icon {
+  font-size: 1rem !important;
+}
+
+.like-button {
+  padding: 8px !important;
+}
+
+.negative-margin {
+  margin-left: -8px;
+}
+
+.w-88 {
+  width: 97%;
+}
+
+.view-replies-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: -11px;
+  display: flex;
+  align-items: center;
+}
+
+.fix-top-right {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
+.font-awesome-icon {
+  fill: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.user-secret {
+  margin-top: -7px;
+  margin-left: -4.5px;
+  font-size: 20px;
+}
+
+.txt-overflow {
+  /* word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap; */
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.small-font {
+  font-size: 0.9rem !important;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.s-font {
+  font-size: 1.3rem !important;
+}

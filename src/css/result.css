@@ -1,0 +1,72 @@
+.result-btn {
+  background-color: transparent;
+  border: none;
+  width: 70%;
+  text-align: start;
+  /* max-height: 13.5rem; */
+  max-height: 8rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.75rem;
+}
+
+.search-container {
+  margin-left: 15%;
+  border-top: 1px solid rgba(1, 1, 1, 0.1);
+  margin-right: 5%;
+  overflow: scroll;
+  height: calc(100% - 5rem);
+}
+
+.number-of-results {
+  margin-left: 15%;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.views-and-time {
+  font-size: 15px;
+}
+
+.small-user-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #03e3fc;
+}
+
+.description {
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.block-with-text {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.2em;
+  max-height: 3.6em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+.block-with-text:before {
+  content: "...";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.block-with-text:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
+}
